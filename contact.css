@@ -1,0 +1,23 @@
+.icone{
+    margin: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 50%;
+    font-size: 60px;
+    cursor: pointer;
+    flex-direction: column;
+}
+.instagram-icon{
+    margin-right: 50px;
+    color:rgb(255, 255, 255);
+}
+.mail-icon{
+    margin-right: 50px;
+    color:rgb(255, 255, 255);
+}
+.spotify-icon{
+    margin-right: 50px;
+    color:rgb(255, 255, 255);
+}
