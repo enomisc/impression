@@ -1,0 +1,177 @@
+.instagram-icon{
+    background-color:white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    height: 400px;
+    background-image: linear-gradient(rgb(120, 13, 226), rgb(241, 93, 197));
+}
+.mail-icon{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    background-image: url("immagini/gmailserio.png");
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-color: rgb(246, 246, 246) ;
+    height: 400px;
+}
+.spotify-icon{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+   /* background-image: linear-gradient(rgb(11, 226, 47), rgb(29, 6, 119));*/
+    height: 400px;
+    background-image: url('immagini/fotto.png');
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-color: rgb(246, 246, 246) ;
+    height: 400px;
+}
+
+.links-icon{
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    height: 400px;
+}
+.div-griglia-sfondo{
+display: grid;
+row-gap: 8px;
+column-gap: 8px;
+margin: 6px;
+font-size: 60px;
+grid-template-columns: 1fr 1fr;
+}
+.ri-instagram-line{
+    color: black;
+    margin-bottom: -20px;
+}
+.ri-mail-line{
+    color: black;
+    display: block;
+}
+.ri-spotify-fill{
+    color: rgb(255, 255, 255);
+}
+.ri-links-fill{
+    color: black;
+}
+.scritta-contacts-social{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+    font-size: 30px;
+}
+.scritta-contacts-social-spotify{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.scritta-contacts-info{
+    font-family: 'Source Sans Pro';
+    color: rgb(20, 0, 135);
+    font-size: 20px;
+    text-decoration: underline;
+}
+.scritta-contacts-info-spotify{
+    font-family: 'Source Sans Pro';
+    color: rgb(188, 176, 255);
+    font-size: 20px;
+    text-decoration: underline;
+}
+.div-riquadro-contact{
+    display: flex;
+    flex-direction: row;
+}
+.section-home-1{
+    height: 1000px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    background-color: blue;
+}
+.sfera-0{
+    background-color: rgb(68, 68, 255);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    opacity: 0.9;
+    backdrop-filter: blur(10px);
+    margin-top: -30%;
+    
+}
+.sfera-1{
+    background-color: rgb(68, 68, 255);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    opacity: 0.9;
+    backdrop-filter: blur(10px);
+    margin-left: 40%;
+    margin-top: 20%;
+}
+.sfera-2{
+    background-color: rgb(68, 68, 255);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    opacity: 0.9;
+    backdrop-filter: blur(10px);
+    margin-top: -50%;
+    margin-left: 60%;
+}
+.sfera-3{
+    background-color: rgb(68, 68, 255);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    opacity: 0.9;
+    backdrop-filter: blur(10px);
+    margin-left: -50%;
+    margin-top: -60%;
+}
+.sfera-4{
+    background-color: rgb(68, 68, 255);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    opacity: 0.9;
+    backdrop-filter: blur(10px);
+    margin-left: -50%;
+    margin-top: 35%;
+}
+.classe-section-contact{
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 6px;
+}
+.introduction-class-contact{
+    background-color: rgb(0, 0, 0);
+    height: 800px;
+    display: flex;
+    justify-content: center;  
+    padding-top: 250px;
+}
+.description-class-contact-free{
+   font-size: 50px;
+    color: white;
+}
+
